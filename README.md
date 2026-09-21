@@ -26,7 +26,7 @@ function greet(name) {
 
 | header | header |
 | -------| -------|
-| - [Excel](link)  | *excel description*    |
+| [Excel](link)  | *excel description*    |
 | `row`  | row    |
 | `row`  | row    |
 | `row`  | row    |
