@@ -2,7 +2,7 @@
 
 *stuff goes here*
 
-## Studies
+## Projects
 
 - [Excel](excel.md)
 - [Power BI](power_bi.md)
