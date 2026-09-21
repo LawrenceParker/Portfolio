@@ -128,6 +128,7 @@ One large table
   ```
 
 ### After
+Multiple tables containing concentrated data
 ```
 ├── Drivers
   └── driver data
