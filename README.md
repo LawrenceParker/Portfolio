@@ -9,4 +9,4 @@
 - [Python](python.md)
 
 ## Personal Projects
-- [WNC GT7](racing_series.md)
+- [Racing Series Data Modelling & Power BI Dashboard](racing_series.md)
