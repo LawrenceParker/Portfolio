@@ -122,7 +122,11 @@ One of the main improvements was moving away from a single flat table towards a 
 ![datamodel](images/data_model_structure.png)
 
 with relationships established through keys such as:
-
+- driver_id
+- team_id
+- championship_id
+- race_id
+- track_id
 
 This allowed the model to behave more like a small relational database while still being maintained within Excel.
 
@@ -164,8 +168,6 @@ Individual driver performance could be analysed using metrics such as:
 * Pole positions
 * Points per race
 * Number of DNFs
-
-> Replace these metrics with the actual measures included in your dashboard.
 
 ---
 
