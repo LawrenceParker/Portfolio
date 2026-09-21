@@ -9,4 +9,4 @@
 - [Python](python.md)
 
 ## Personal Projects
-- WNC [GT7]
+- [WNC GT7](wnc_gt7.md)
