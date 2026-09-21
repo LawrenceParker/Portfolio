@@ -1,3 +1,5 @@
+#Racing Series Data Modelling & Power BI Dashboard
+
 ## Project Overview
 
 This project involved transforming a single spreadsheet containing data from a racing series into a relational data model in Excel, before connecting the model to Power BI to produce an interactive leaderboard and driver statistics dashboard.
