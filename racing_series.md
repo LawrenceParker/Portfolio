@@ -119,7 +119,7 @@ One of the main improvements was moving away from a single flat table towards a 
 ### Before
 
 ### After
-![datamodel](data_model_structure.png)
+![datamodel](images/data_model_structure.png)
 
 with relationships established through keys such as:
 
