@@ -227,8 +227,6 @@ Example measures included:
 
 ```
 
-> Replace these examples with the actual DAX measures used in the project.
-
 ---
 
 # End-to-End Data Flow
