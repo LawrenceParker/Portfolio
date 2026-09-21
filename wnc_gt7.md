@@ -74,86 +74,22 @@ The model was designed around the principle of storing each type of information 
 The final Excel model consisted of tables such as:
 
 ```text
-Drivers
-   │
-   ├── DriverID
-   ├── DriverName
-   └── TeamID
-          │
-          ▼
-Teams
-   │
-   ├── TeamID
-   └── TeamName
 
-Races
-   │
-   ├── RaceID
-   ├── Round
-   ├── RaceName
-   └── CircuitID
-          │
-          ▼
-Circuits
-   │
-   ├── CircuitID
-   └── CircuitName
-
-Results
-   │
-   ├── ResultID
-   ├── RaceID
-   ├── DriverID
-   ├── QualifyingPosition
-   ├── FinishingPosition
-   └── Points
 ```
-
-> Replace the example tables above with the actual tables used in my project.
 
 ---
 
-## 🧩 Data Model
+## Data Model
 
 The relational structure allowed entities such as drivers, teams, races and circuits to be stored independently while the results table acted as the central source of performance data.
 
 For example:
 
-```text
-             ┌──────────────┐
-             │    Drivers   │
-             │──────────────│
-             │ DriverID     │
-             │ DriverName   │
-             │ TeamID       │
-             └──────┬───────┘
-                    │
-                    │
-             ┌──────▼───────┐
-             │    Results   │
-             │──────────────│
-             │ ResultID     │
-             │ DriverID     │
-             │ RaceID       │
-             │ FinishPos    │
-             │ Points       │
-             └──────┬───────┘
-                    │
-                    │
-             ┌──────▼───────┐
-             │     Races    │
-             │──────────────│
-             │ RaceID       │
-             │ CircuitID    │
-             │ Round        │
-             └──────────────┘
-```
-
 This structure made it possible to analyse race results from different perspectives without repeatedly storing the same descriptive information.
 
 ---
 
-# 🧹 Data Cleaning & Preparation
+# Data Cleaning & Preparation
 
 During the transformation process, I carried out a number of data preparation tasks, including:
 
@@ -184,46 +120,23 @@ This improves consistency and makes the dataset easier to maintain.
 
 ---
 
-# 📐 Relational Design
+# Relational Design
 
 One of the main improvements was moving away from a single flat table towards a relational structure.
 
 ### Before
 
-```text
-One large table
-│
-├── Driver information
-├── Team information
-├── Race information
-├── Circuit information
-└── Result information
-```
-
 ### After
 
-```text
-Drivers
-Teams
-Circuits
-Races
-Results
-```
 
 with relationships established through keys such as:
 
-```text
-DriverID
-TeamID
-CircuitID
-RaceID
-```
 
 This allowed the model to behave more like a small relational database while still being maintained within Excel.
 
 ---
 
-# 📈 Power BI
+# Power BI
 
 Once the Excel model was structured, I connected it to **Power BI** to create an interactive reporting layer.
 
@@ -233,7 +146,7 @@ The Power BI model used the relationships established within the structured data
 
 The dashboard included functionality such as:
 
-### 🏆 Championship Leaderboard
+### Championship Leaderboard
 
 A leaderboard showing drivers ranked according to their accumulated championship points.
 
@@ -245,7 +158,7 @@ Example:
 |        2 | Driver B |    164 |    4 |       7 |
 |        3 | Driver C |    142 |    3 |       6 |
 
-### 🏎️ Driver Statistics
+### Driver Statistics
 
 Individual driver performance could be analysed using metrics such as:
 
@@ -264,7 +177,7 @@ Individual driver performance could be analysed using metrics such as:
 
 ---
 
-# 📊 Dashboard Visualisations
+# Dashboard Visualisations
 
 The Power BI report included visualisations such as:
 
@@ -292,86 +205,47 @@ This allowed the same underlying dataset to support multiple types of analysis.
 
 ---
 
-# 🧮 Power BI Measures
+# Power BI Measures
 
 I also created calculated metrics within Power BI to turn the raw race results into meaningful performance statistics.
 
 Example measures included:
 
 ```DAX
-Total Points =
-SUM(Results[Points])
+
 ```
 
 ```DAX
-Race Wins =
-CALCULATE(
-    COUNTROWS(Results),
-    Results[FinishingPosition] = 1
-)
+
 ```
 
 ```DAX
-Podiums =
-CALCULATE(
-    COUNTROWS(Results),
-    Results[FinishingPosition] <= 3
-)
+
 ```
 
 ```DAX
-Average Finish =
-AVERAGE(Results[FinishingPosition])
+
 ```
 
 > Replace these examples with the actual DAX measures used in the project.
 
 ---
 
-# 🔗 End-to-End Data Flow
+# End-to-End Data Flow
 
 The overall workflow was:
-
-```text
-Original Racing Spreadsheet
-          │
-          ▼
-     Data Cleaning
-          │
-          ▼
-   Data Transformation
-          │
-          ▼
- Relational Excel Model
-          │
-          ▼
-     Power BI Model
-          │
-          ▼
- Calculated Measures
-          │
-          ▼
- Interactive Dashboard
-          │
-          ▼
-Leaderboard & Driver Analytics
-```
 
 This created a complete workflow from **raw data collection through to business intelligence reporting**.
 
 ---
 
-# 💡 Key Challenges
+# Key Challenges
 
 ## Challenge 1 — Converting a Flat Dataset
 
 The original spreadsheet was designed primarily for recording information rather than analysis.
 
 I had to identify which fields represented separate entities and determine how they could be split into logical tables.
-
-### Solution
-
-I separated the data into individual entities and created unique IDs to establish relationships between them.
 
 ---
 
