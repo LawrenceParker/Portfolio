@@ -131,12 +131,16 @@ One large table
 ```
 ├── Drivers
   └── driver data
+
 ├── Teams
   └── Team data
+
 ├── Race
   └── Race data
+
 ├── Tracks
   └── Track data
+
 ├── Results
   └── Race result data
 ```
