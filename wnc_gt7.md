@@ -57,7 +57,7 @@ While this structure was suitable for manually recording results, it was not ide
 | 28/11/2023 | Season 1   | Round 1   | Race 1   | GT3 Cup       | Individual    |               | Suzuka - Full Course | Joe McGhee      | Ferrari - 458 Italia GT3 13 | Gr.3          | 5             | 5              |        |               | 10         |                  |               | 0              | 10               | 0           |                |                   |             | No               |
 | 28/11/2023 | Season 1   | Round 1   | Race 1   | GT3 Cup       | Individual    |               | Suzuka - Full Course | Lawrence Parker | McLaren - 650S GT3 15       | Gr.3          | 2             | 3              |        |               | 15         |                  |               | 0              | 15               | \-1         |                |                   |             | No               |
 
-This approach resulted in information such as driver, team and circuit details being repeated across multiple rows.
+This approach resulted in information such as driver, team, car class, and track details being repeated across multiple rows.
 
 ---
 
