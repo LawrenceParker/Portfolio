@@ -13,6 +13,8 @@ After spending the week learning the basics to cleaning and visualising data usi
 - Challenge the visual
 - Communicate the result
 
+# Preparing the data
+
 ```py
 from google.colab import files
 csv = files.upload()
@@ -34,3 +36,9 @@ bs
 | 154 | Togo        | Sub-Saharan Africa              | 155            | 3.303           | 3.192                     | 3.414                     | 0.28123                  | 0.00000 | 0.24811                  | 0.34678 |
 | 155 | Syria       | Middle East and Northern Africa | 156            | 3.069           | 2.936                     | 3.202                     | 0.74719                  | 0.14866 | 0.62994                  | 0.06912 |
 | 156 | Burundi     | Sub-Saharan Africa              | 157            | 2.905           | 2.732                     | 3.078                     | 0.06831                  | 0.23442 | 0.15747                  | 0.04320 |
+
+
+```py
+print(bs.shape, bs.columns, bs.dtypes, bs.isnull().sum(), sep='\n\n')
+```
+
