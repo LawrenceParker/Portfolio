@@ -24,6 +24,7 @@ import pandas as pd
 bs = pd.read_csv('Happiness.csv')
 bs
 ```
+
 | Index | Country     | Region                         | Happiness Rank | Happiness Score | Lower CI | Upper CI | Economy (GDP per Capita) | Family  | Health (Life Expectancy) | Freedom |
 |-------|-------------|--------------------------------|----------------|------------------|----------|----------|----------------------------|---------|----------------------------|---------|
 | 0     | Denmark     | Western Europe                 | 1              | 7.526            | 7.460    | 7.592    | 1.44178                    | 1.16374 | 0.79504                    | 0.57941 |
