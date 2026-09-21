@@ -5,7 +5,7 @@
 ## Projects
 
 - [Excel](link)
-- [Power BI](link)
+- [Power BI](PowerBI.md)
 - [Python](link)
 
 ## To do list
