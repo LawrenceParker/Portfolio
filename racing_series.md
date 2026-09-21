@@ -118,14 +118,17 @@ One of the main improvements was moving away from a single flat table towards a 
 
 ### Before
 One large table 
+  ```
   │ 
   ├── Driver data 
   ├── Team data 
   ├── Race data 
   ├── Tracks data 
   └── Result data
-  
+  ```
+
 ### After
+```
 ├── Drivers
   └── driver data
 ├── Teams
@@ -136,7 +139,7 @@ One large table
   └── Track data
 ├── Results
   └── Race result data
-
+```
 with relationships established through keys such as:
 
 - driver_id
