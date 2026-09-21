@@ -1,1 +1,1 @@
-![old data](olddata.jpeg)
+![old data](old_data.png)
