@@ -13,7 +13,7 @@ After spending the week learning the basics to cleaning and visualising data usi
 - Challenge the visual
 - Communicate the result
 
-'''
+```py
 from google.colab import files
 csv = files.upload()
-'''
+```
