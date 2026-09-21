@@ -117,18 +117,36 @@ This improves consistency and makes the dataset easier to maintain.
 One of the main improvements was moving away from a single flat table towards a relational structure.
 
 ### Before
-
+One large table 
+  │ 
+  ├── Driver data 
+  ├── Team data 
+  ├── Race data 
+  ├── Tracks data 
+  └── Result data
+  
 ### After
-![datamodel](images/data_model_structure.png)
+├── Drivers
+  └── driver data
+├── Teams
+  └── Team data
+├── Race
+  └── Race data
+├── Tracks
+  └── Track data
+├── Results
+  └── Race result data
 
 with relationships established through keys such as:
+
 - driver_id
 - team_id
-- championship_id
 - race_id
 - track_id
 
 This allowed the model to behave more like a small relational database while still being maintained within Excel.
+
+![datamodel](images/data_model_structure.png)
 
 ---
 
