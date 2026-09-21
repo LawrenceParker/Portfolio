@@ -1,11 +1,3 @@
-
-## Original data structure
-When originally collecting the data i placed it all in one large spreadsheet which also contained all the calculations for how many points scored per race.
-
-![old data](images/old_data.png)
-
-# Racing Series Data Modelling & Power BI Dashboard
-
 ## Project Overview
 
 This project involved transforming a single spreadsheet containing data from a racing series into a relational data model in Excel, before connecting the model to Power BI to produce an interactive leaderboard and driver statistics dashboard.
