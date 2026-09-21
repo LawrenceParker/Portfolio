@@ -37,7 +37,7 @@ bs
 | 155   | Syria       | Middle East and Northern Africa| 156            | 3.069            | 2.936    | 3.202    | 0.74719                    | 0.14866 | 0.62994                    | 0.06912 |
 | 156   | Burundi     | Sub-Saharan Africa             | 157            | 2.905            | 2.732    | 3.078    | 0.06831                    | 0.23442 | 0.15747                    | 0.04320 |
 
-
+## Checking the datasets shape, column names, data types and missing values.
 ```py
 print(bs.shape, bs.columns, bs.dtypes, bs.isnull().sum(), sep='\n\n')
 ```
