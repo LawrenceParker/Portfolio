@@ -1,8 +1,8 @@
-# Lawrence Parker Portfolio
+# Lawrence Parker
 
 *stuff goes here*
 
-## Projects
+## Studies
 
 - [Excel](link)
 - [Power BI](PowerBI.md)
@@ -16,19 +16,8 @@
 
 ### Code blocks
 
-```js
-function greet(name) {
-  return `Hello, ${name}!`;
-}
+```py
+print('Hello World')
 ```
 
-### Tables
 
-| header | header |
-| -------| -------|
-| [Excel](link)  | *excel description*    |
-| `row`  | row    |
-| `row`  | row    |
-| `row`  | row    |
-| `row`  | row    |
-| `row`  | row    |
