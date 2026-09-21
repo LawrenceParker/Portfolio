@@ -4,9 +4,9 @@
 
 ## Studies
 
-- [Excel](link)
-- [Power BI](PowerBI.md)
-- [Python](link)
+- [Excel](excel.md)
+- [Power BI](power_bi.md)
+- [Python](python.md)
 
 ## To do list
 - [ ] Task 1
