@@ -14,17 +14,17 @@ The project demonstrates the ability to take raw data and turn it into a structu
 
 ### Importing and Loading the Data
 
-![Power BI data import](https://sites.google.com/sitesv-images-rt/AMxu72scqSMe-6onC3yH01gII4lJsDdwhDPeLTuoqxb4S088qacCrW4yQNXXaUE6BxBOguCTPuMEqNpm8UUlxPkU7BNDZuA4Pc_-O2LU0_p-WUnoBG432TF-u2GQ5LWiPiG9cUui_cklyrcpmwN72JqVUqIc-OQxUliOqIzxOJifXr2EVIc2XKc9iP0kTgMPVdKFeUA2aPM4YHVT32M11we4Sn-33rWp8qUl3QSJSVBg%3Dw1280)
+![Power BI data import](images/powerbi_import)
 
-![Restructured Power BI data](https://sites.google.com/sitesv-images-rt/AMxu72vvoFpK1XMCdveLTs9NmgLHMS2OdT4YiXkrv_Ifuc4rGiV7DItHH8RnjpnkZIyqdjvw4h9MJorPqMS6YV2sqXb9s6ixpFltBfbzVCyZtb15oPs-BqVZ0L8Dxu9zYgcWllAtlt3q9yptcHSGJI4eN8NmmLG8zG7N2VcMgu17c1Fb1qHPuv1HhJ8EqlVRLzJ0KwxRgp9Cbht5fip-6pB0FExHIYP0AMWMdghAXthm9yc%3Dw1280)
+![Restructured Power BI data](images/powerbi_load_data)
 
 ### Creating the Relationships
 
-![Power BI data model relationships](https://sites.google.com/sitesv-images-rt/AMxu72tGce5Xp2__D1ZCmf3mO9pv11lerne4NBVN5awpt4NZYWdwFiZtRuWvqC8SbHxGcmm3Y22_dlwAId80mOn96exIbCqyxr8nIUHRvurLS1A7l5JVo9l9uAdkJuBnj3E_2r4XZ1OnoSz9IevjrLq8DeIlhwO8m1y_n7BsQIDLQ2mR_ddRRoX_e106E0HrEQ6oXBXkum6nOqb4Q1t1nlLb88ndkLNez4M6M2sXLuA2sv8%3Dw1280)
+![Power BI data model relationships](images/powerbi_relationships)
 
 ### DAX Formulas
 
-![DAX measures](https://sites.google.com/sitesv-images-rt/AMxu72ukiWJtEw1xfyEArHUce6z5i0WLmOv6r3Q4lRSxgde1AY9knfap-f_aOLHJW6EMxn6Z4e52IYwKJBbIpkeGUaFegeipOt7hEcJRPK4-9PEyuf4cwjEl1CpAJvMWljupFsmvZcospM7HKgjdcmLP4GrvS6yk7Tmu155_YR5bf6Ox0lCGGzgd_tnAXl7I0v-rrEYkO_qbn4pHw7nSdsVIJwJ_o_Uw9enZzzUeoV6ZMuA%3Dw1280)
+![DAX measures](images/powerbi_measures)
 
 The following measures were created:
 
