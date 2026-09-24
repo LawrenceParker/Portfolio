@@ -14,17 +14,17 @@ The project demonstrates the ability to take raw data and turn it into a structu
 
 ### Importing and Loading the Data
 
-![Power BI data import](images/powerbi_import)
+![Power BI data import](images/powerbi_import.png)
 
-![Restructured Power BI data](images/powerbi_load_data)
+![Restructured Power BI data](images/powerbi_load_data.png)
 
 ### Creating the Relationships
 
-![Power BI data model relationships](images/powerbi_relationships)
+![Power BI data model relationships](images/powerbi_relationships.png)
 
 ### DAX Formulas
 
-![DAX measures](images/powerbi_measures)
+![DAX measures](images/powerbi_measures.png)
 
 The following measures were created:
 
