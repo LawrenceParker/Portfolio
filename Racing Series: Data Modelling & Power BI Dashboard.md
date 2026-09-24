@@ -12,17 +12,6 @@ The project demonstrates the ability to take raw data and turn it into a structu
 
 ## On to Power BI
 
-### Importing and Loading the Data
-
-<p>
-  <img src="images/powerbi_import.png" width="28%" />
-  <img src="images/powerbi_load_data.png" width="68%" />
-</p>
-
-![Power BI data import](images/powerbi_import.png)
-
-![Restructured Power BI data](images/powerbi_load_data.png)
-
 ### Creating the Relationships
 
 ![Power BI data model relationships](images/powerbi_relationships.png)
