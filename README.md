@@ -1,4 +1,11 @@
-# About Me
+Lawrence Parker
+
+Birmingham, UK
+
+Aspiring Data Analyst
+
+---
+
 Hi, my name is Lawrence.
 
 I’ve always enjoyed gathering, analysing, and turning data into stories that help people understand what’s really happening beneath the surface. That interest goes all the way back to my A-Levels in Computing, ICT, and Electronics and it’s something I still pursue today through personal projects, including a gaming tournament I run with friends, where I collect data, track performance, and present leaderboards and reports.
