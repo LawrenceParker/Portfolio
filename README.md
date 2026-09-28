@@ -15,4 +15,4 @@ This interest is what pushed me toward a career in data especially after being m
 Upon completing an intense 8 week data bootcamp where I have developed my skills such in Excel, Power BI, SQL, and Python. I’m looking for an entry‑level or apprenticeship data analyst role where I can keep developing those skills.
 
 ## Personal Projects
-- [Racing Series Data Modelling & Power BI Dashboard](Racing Series.md)
+- [Racing Series Data Modelling & Power BI Dashboard](racing_series.md)
