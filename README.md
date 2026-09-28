@@ -1,21 +1,11 @@
 # About Me
-**My Past**
+Hi, my name is Lawrence.
 
-For the past 15 years, I’ve worked in the hospitality industry, an experience that has taught me a lot about people, problem-solving and working in a fast-paced environment. Over the years, I’ve developed strong communication and customer relationship skills, while also gaining experience with Excel and CRM systems to organise and manage information.
+I’ve always enjoyed gathering, analysing, and turning data into stories that help people understand what’s really happening beneath the surface. That interest goes all the way back to my A-Levels in Computing, ICT, and Electronics and it’s something I still pursue today through personal projects, including a gaming tournament I run with friends, where I collect data, track performance, and present leaderboards and reports.
 
-Working with data has always been something I’ve enjoyed, particularly finding patterns, understanding what the numbers are showing and using that information to solve problems. Although data hasn’t always been my main focus, it has gradually become an area that I’ve wanted to explore further.
+This interest is what pushed me toward a career in data especially after being made redundant from my previous job in hospitality, an industry I have spent the last 15 years working in where we naturally analysed patterns to find ways to improve service and customer satisfaction.
 
-**My Present**
-
-I’m now making a career change into the world of data. I’m currently completing an intensive Data Technician Bootcamp, where I’m building my technical skills in Excel, Power BI, SQL, Python and Azure.
-
-Alongside learning the technical side of data, I’m gaining practical experience in analysing and visualising information, turning raw data into something meaningful and easier to understand. It’s been a big learning curve, but it’s also been exciting to develop skills that build on the problem-solving and analytical experience I’ve gained throughout my career.
-
-**My Future**
-
-My goal is to start my career in the data industry, as a Data Analyst or Data Technician. I want to bring together the experience I’ve gained over the last 15 years with the new technical skills I’m developing.
-
-I’m particularly interested in using data to uncover insights, answer questions and support better decision-making. I’m looking forward to gaining real-world experience, continuing to learn and developing into a confident and capable data professional.
+Upon completing an intense 8 week data bootcamp where I have developed my skills such in Excel, Power BI, SQL, and Python. I’m looking for an entry‑level or apprenticeship data analyst role where I can keep developing those skills.
 
 ## Personal Projects
 - [Racing Series Data Modelling & Power BI Dashboard](Racing Series.md)
